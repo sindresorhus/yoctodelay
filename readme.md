@@ -45,7 +45,7 @@ Milliseconds to delay the promise.
 
 ### What is yocto?
 
-[It's the smallest official unit prefix in the metric system.](https://en.m.wikipedia.org/wiki/Yocto-) Much smaller than nano.
+[It's the smallest official unit prefix in the metric system.](https://en.wikipedia.org/wiki/Yocto-) Much smaller than nano.
 
 ### Is this a joke?
 
