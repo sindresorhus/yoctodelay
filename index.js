@@ -1,1 +1,1 @@
-module.exports=d=>new Promise(r=>setTimeout(r,d))
+exports=d=>new Promise(r=>setTimeout(r,d))
