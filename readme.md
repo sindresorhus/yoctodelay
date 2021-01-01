@@ -1,4 +1,4 @@
-# yoctodelay [![Build Status](https://travis-ci.org/sindresorhus/yoctodelay.svg?branch=master)](https://travis-ci.org/sindresorhus/yoctodelay)
+# yoctodelay
 
 > Delay a promise a specified amount of time
 
