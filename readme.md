@@ -4,13 +4,11 @@
 
 It's less than half the size of the [`nanodelay`](https://github.com/ai/nanodelay) module.
 
-
 ## Install
 
 ```
 $ npm install yoctodelay
 ```
-
 
 ## Usage
 
@@ -27,19 +25,17 @@ const delay = require('yoctodelay');
 })();
 ```
 
-
 ## API
 
-### delay(ms)
+### delay(milliseconds)
 
 Delay the promise and then resolve.
 
-#### ms
+#### milliseconds
 
 Type: `number`
 
-Milliseconds to delay the promise.
-
+The duration to delay the promise.
 
 ## FAQ
 
@@ -51,13 +47,7 @@ Milliseconds to delay the promise.
 
 Partly. The `nanodelay` module was created only because the `delay` module is a tiny bit larger. Well, this module is a tiny bit smaller than the `nanodelay` module. Comparing size at the byte level is super silly. It doesn't matter unless the difference is more than many kilobytes. This is still a fully working module though. Go ahead and use it.
 
-
 ## Related
 
 - [delay](https://github.com/sindresorhus/delay) - Similar to this module but with more features
 - [More…](https://github.com/sindresorhus/promise-fun)
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)
