@@ -1,11 +1,11 @@
 /**
 Delay the promise and then resolve.
 
-@param ms Milliseconds to delay the promise.
+@param milliseconds - The duration to delay the promise.
 
 @example
 ```
-const delay = require('yoctodelay');
+import delay = require('yoctodelay');
 
 (async () => {
 	foo();
@@ -17,6 +17,6 @@ const delay = require('yoctodelay');
 })();
 ```
 */
-declare function delay(ms: number): Promise<void>;
+declare function delay(milliseconds: number): Promise<void>;
 
 export = delay;
