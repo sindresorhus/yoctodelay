@@ -13,10 +13,11 @@
 		"node": ">=4"
 	},
 	"scripts": {
-		"test": "xo && ava"
+		"test": "xo && ava && tsd"
 	},
 	"files": [
-		"index.js"
+		"index.js",
+		"index.d.ts"
 	],
 	"keywords": [
 		"promise",
@@ -38,10 +39,11 @@
 		"bluebird"
 	],
 	"devDependencies": {
-		"ava": "*",
+		"ava": "^2.4.0",
 		"in-range": "^1.0.0",
 		"time-span": "^2.0.0",
-		"xo": "*"
+		"tsd": "^0.14.0",
+		"xo": "^0.24.0"
 	},
 	"xo": {
 		"rules": {
