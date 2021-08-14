@@ -1,6 +1,6 @@
 {
 	"name": "yoctodelay",
-	"version": "1.2.0",
+	"version": "2.0.0",
 	"description": "Delay a promise a specified amount of time",
 	"license": "MIT",
 	"repository": "sindresorhus/yoctodelay",
