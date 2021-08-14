@@ -4,6 +4,14 @@
 
 It's less than half the size of the [`nanodelay`](https://github.com/ai/nanodelay) module.
 
+**Note:** If you target Node.js 16 or later, you can use the built-in functionality instead:
+
+```js
+import {setTimeout as delay} from 'node:timers/promises';
+
+await delay(100);
+```
+
 ## Install
 
 ```
@@ -13,16 +21,14 @@ $ npm install yoctodelay
 ## Usage
 
 ```js
-const delay = require('yoctodelay');
+import delay from 'yoctodelay';
 
-(async () => {
-	foo();
+foo();
 
-	await delay(100);
+await delay(100);
 
-	// Executed 100 milliseconds later
-	bar();
-})();
+// Executed 100 milliseconds later
+bar();
 ```
 
 ## API

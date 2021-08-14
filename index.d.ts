@@ -5,18 +5,14 @@ Delay the promise and then resolve.
 
 @example
 ```
-import delay = require('yoctodelay');
+import delay from 'yoctodelay';
 
-(async () => {
-	foo();
+foo();
 
-	await delay(100);
+await delay(100);
 
-	// Executed 100 milliseconds later
-	bar();
-})();
+// Executed 100 milliseconds later
+bar();
 ```
 */
-declare function delay(milliseconds: number): Promise<void>;
-
-export = delay;
+export default function delay(milliseconds: number): Promise<void>;
