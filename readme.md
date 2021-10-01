@@ -56,4 +56,5 @@ Partly. The `nanodelay` module was created only because the `delay` module is a 
 ## Related
 
 - [delay](https://github.com/sindresorhus/delay) - Similar to this module but with more features
+- [yoctocolors](https://github.com/sindresorhus/yoctocolors) - The smallest and fastest command-line coloring package on the internet
 - [More…](https://github.com/sindresorhus/promise-fun)
